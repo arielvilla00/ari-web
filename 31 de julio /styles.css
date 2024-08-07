@@ -1,6 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*
 article {
  border-bottom: 10px crimson;
  padding: 3rem 8rem;
  margin: 2rem;
+}
+ */
+ /*ejemplos de id y class */
+ .primero {
+    line-height: 2rem;
+    color: rgb(112, 60, 112);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #lista {
+    list-style: none;
+    font-size: .6;
+    color: blue;
+    line-height: 1.6;
+ }
+ /*reticula*/
+ body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 
+ }
+ header {
+    grid-column-start: 1;
+    grid-column-end: 4
+ }
+ main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+ }
+
+ /*estilos de menu de navegaciòn*/
+
+  
+ #logo {
+    width: 200px;
+ }
+ nav {
+    background-color: rgb(216, 216, 191);
+    padding: 3rem;
+ }
+ nav ul{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ nav ul a {
+    text-decoration: none;
+    padding: 2rex
+ }
+ /* estilo de footer*/
+ 
+ footer {
+    background-color: rgb(170, 95, 110);
+    padding: 3rem
+
+ } 
+
+ /* estilos tipograficos */
+  h1 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 7rem;
+  }
+
+  figcaption {
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  }
+
+  /* estilo imagen*/ 
+
+#imagenprin {
+    width: 100%;
+    object-fit: cover;
 }
