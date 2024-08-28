@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alas</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<header>Header</header>
+<body>
+    <div class="container">
+        <main>
+            <h1>Alas</h1>
+            <p>En la jerga militar, alas es la denominación que recibe la insignia que llevan en sus uniformes los militares de ciertas profesiones relacionadas con la aviación militar. El nombre de la insignia se debe a su diseño en forma de dos alas, pudiendo ser de una ave (normalmente un águila), una aeronave o una forma geométrica, y entre ellas el escudo o una imagen correspondiente a la profesión o a una unidad militar concreta. En algunos países, como los de la Mancomunidad de Naciones, esta insignia se llama insignia de aviador o emblema de aviador (aircrew brevet).</p>
+            <div id="my-div"></div>
+        </main>
+        
+</body>
+        <footer>
+            <p>Alas militares</p>
+        </footer>
+        <aside>
+            <h3>Relacionados 
+            <ul id="lista"> 
+                <li><a href="#">Articulo Relacionado 1</a></li>
+                <li><a href="#">Articulo Relacionado 2</a></li>
+                <li><a href="#">Articulo Relacionado 3</a></li>
+                <li><a href="#">Articulo Relacionado 4</a></li>
+            </ul>
+            </h3>
+            
+        </aside>
+    </div>
+    <script src="js/vivus.js"></script>
+    <script>
+        new Vivus ('my-div', {duration:50, type: 'scenario-sync', file: 'img/images.svg'},);
+    </script>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <script>
+        ScrollReveal().reveal('.main');
+        ScrollReveal().reveal('.tagline', { delay: 500 });
+        ScrollReveal().reveal('.punchline', { delay: 2000 });
+     </script>
+
+    
+
+</html>

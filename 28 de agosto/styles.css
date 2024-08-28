@@ -1,0 +1,32 @@
+<style>
+         svg{
+            width: 50%;
+         }
+    </style>
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: ;
+    background-color: rgb(72, 123, 170);
+ }
+ header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: aqua;   
+ }
+ main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(208, 203, 203);
+ }
+ footer {
+   background-color: rgb(170, 95, 110);
+   padding: 3rem;
+   grid-column-start: 1;
+   grid-column-end: 3;
+} 
+aside {
+   background-color: rgb(129, 46, 109);
+   grid-column-start: 3;
+   grid-column-end: 4;
+}
